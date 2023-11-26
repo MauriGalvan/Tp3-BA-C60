@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: rgb(255, 255, 255);
+
+}
+
+.Titulo{
+
+    padding-top: 30px;
+      font-family: 'Playfair Display', serif;
+      font-size: 50px;
+      color: #704214;
+      font-style: italic;
+      text-align: center;
+     
+    
+    
+}
+nav{
+  background-color: #ebd6c2;
+      text-align: center;
+      border-bottom: solid 2px black;
+}
+nav a {
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+  }
+
+  nav a:hover {
+    background-color: #fafafa; /* Color de fondo al pasar el mouse */
+  }
+
+.container-carousel{
+    position: relative;
+  
+    overflow: hidden;
+
+
+}
+.carousel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+.carousel-slide{
+   width: calc(100%/3);
+    height: 100%;
+    
+}
+.carousel-slide img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.i,
+.d {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff81;
+    transform: translate(0,-50%);
+    transition: .5s ease;
+    user-select: none;
+}
+
+.i,
+.d:hover {
+    background-color: #333333d4;
+  
+}
+
+.i{
+    left: 25%;
+}
+
+.d{
+    right: 25%;
+}
+/*.i,.d{
+
+position: absolute;
+top: 50%;
+font-size: 1.5rem;
+padding: 1%;
+color: #f5060681;
+
+}
+
+.d{
+    right: 10px;
+}*/
+.subtitulo{
+  padding-top: 12px;
+  background-color:   #ebd6c2;
+
+  padding-bottom: 10px;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: #704214;
+  font-style: italic;
+  text-align: center;
+}
+.destacado{
+  font-weight:600 ;
+  text-align: center;
+}
+.tortas-container {
+    display: flex;
+   
+    justify-content: center;
+
+  }
+  .tortas-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+  
+
+  .torta {
+   /* width: calc(33.33% - 20px); /* Ajustar según sea necesario para dejar espacio entre las columnas 
+    margin-bottom: 40px;
+    overflow: hidden;
+  */
+  display: flex;
+  flex-flow: column;
+  /* height: 270px;
+  width: 11%; */
+  margin-left: 3%;
+  margin-top: 3%;
+  box-shadow:0 0 2px #111 ;
+
+
+ 
+
+  }
+
+  .imgCard{
+    height: 220px;  
+    width: 220px;
+    object-fit: cover;
+    align-self: center;
+    margin-top: 10%;
+    box-shadow: 0px 0px 13px -7px rgba(0,0,0,0.75);
+    
+}
+.nombreProducto{
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  font-size: 12px;
+ 
+}
+.btnTortaDescripcion{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  
+}
+.btnDescripcion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #daa978;
+  border: none;
+  width: 160px;
+  height: 25px;
+  font-size: 13px;
+}
+
+.suscribirse{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  background-color: #ebd6c2;
+
+}
+.btnSubscribir{
+    cursor:pointer;
+      position:relative;
+      padding:10px 20px;
+      background:#c5a98e;
+      font-size:20px;
+      border-top-right-radius:10px;
+      border-bottom-left-radius:10px;
+      transition:all 1s;
+      
+     
+      }
+  .btnSubscribir:hover{
+              border-top-right-radius:15px;
+            border-bottom-left-radius:15px;
+            background-color: #e0e0e0;
+}
+
+h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  color: #704214;
+  font-style: italic;
+}
+.textTorta{
+   font-weight:600 ;
+   padding-bottom: 10px;
+}
+
+
+#email{
+  font-family: inherit;
+  width: 30%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+h4{
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: #704214;
+  font-style: italic;
+}
+.redes{
+  text-align: center;
+  padding: 5%; 
+  background-color: #ebd6c2;
+  border-bottom: solid 2px black;
+}
+.iconos{
+  margin-top: 20px;
+  
+}
+.logo{
+  padding: 10px;
+  width: 40px;
+  background-color: #704214;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+footer{
+  font-size: 10px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  
+  padding: 10px;
+  background-color:rgb(191, 214, 148);
+}
+
+.pastelera{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.imgPastelera{
+  max-width: 60%;
+  height: auto;
+  border-radius: 5px;
+}
+.info{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #704214;
+  text-align: center;
+  padding:20px 0 20px 0;
+}
+.sobremi{
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  color: #704214;
+  font-style: italic;
+padding: 20px;
+}
+.containerFooter{
+  display: flex;
+}
+.tituloFooter{
+  display: flex;
+  justify-content: flex-start;
+  width: 15%;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+
+.menuFooter{
+  width: 50%;
+}
+.menuFooter a{
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+ position: relative;
+  width: 15%;
+  text-align: center;
+}
+.menuFooter a:hover{
+  background-color: #eee0e0;
+  border: solid 1px black;
+}
+.contact-info {
+  width: 50%;
+}
+.contact-info div{
+  color: #000000;
+  font-size: 13px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
+  width: 15%;
+  text-align: center;
+}
+
+
+
+@media (max-width: 800px){
+  .tortas-container{
+    flex-direction: column;
+    align-items: center;
+}
+  .tortas-container2{
+      flex-direction: column;
+      align-items: center;
+  }
+  .torta{
+    display: flex;
+    flex-flow: column;
+    /* height: 270px; */
+    /* width: 11%; */
+    margin-left: 3%;
+    margin-top: 3%;
+ 
+  }
+}
+
+
